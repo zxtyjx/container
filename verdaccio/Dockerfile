@@ -18,7 +18,7 @@ ADD . $APPDIR
 
 ENV NODE_ENV=production
 
-RUN npm config set registry http://registry.npmjs.org/ && \
+RUN npm config set registry http://registry.npm.taobao.org/ && \
     yarn global add -s flow-bin@0.69.0 && \
     yarn install --production=false && \
     yarn lint && \
