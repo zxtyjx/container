@@ -1,2 +1,2 @@
-FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.20.0
+FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.22.0
 MAINTAINER zxsy113@live.com
